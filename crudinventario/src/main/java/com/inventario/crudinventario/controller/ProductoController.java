@@ -1,4 +1,4 @@
-package com.inventario.crudinventario.service;
+package com.inventario.crudinventario.controller;
 
 import java.util.List;
 
@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.inventario.crudinventario.entity.Producto;
+import com.inventario.crudinventario.service.ProductoService;
 
 @RestController
 @RequestMapping(path = "api/v1/productos")
